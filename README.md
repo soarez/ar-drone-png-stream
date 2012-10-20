@@ -2,7 +2,11 @@
 
 #### *HTTP png stream from nodecopter using `multipart/x-mixed-replace`.*
 
-Usage:
+### Install
+
+    npm install ar-drone-png-stream
+
+### Usage:
 
 `client` should be an instance of [`ar-drone`](https://github.com/felixge/node-ar-drone)
 
