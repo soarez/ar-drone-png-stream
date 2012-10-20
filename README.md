@@ -15,3 +15,6 @@
 	
     require('ar-drone-png-stream')(client, { port: 8000 });
     
+When it is running open the browser at `http://localhost:8000` or include this HTML in a page
+
+    <img src="localhost:8000" />
