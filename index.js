@@ -8,7 +8,7 @@ module.exports = function(client, opts) {
   var server = http.createServer(function(req, res) {
 
     if (!png) {
-      png = client.createPngStream({ log : process.stderr });
+      png = client.getPngStream();
       png.on('error', function (err) {
           console.error('png stream ERROR: ' + err);
       });
