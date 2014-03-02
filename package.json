@@ -1,6 +1,6 @@
 {
   "name": "ar-drone-png-stream",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "HTTP png stream from nodecopter using multipart/x-mixed-replace",
   "main": "index.js",
   "scripts": {
